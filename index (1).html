@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABRAR TRADERS</title>
+    <meta name="description" content="Abrar Traders - Premium quality paper products and packaging supplies." />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?display=swap&family=Be+Vietnam+Pro:wght@400;500;700;900&family=Noto+Sans:wght@400;500;700;900"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <style>
+      html { scroll-behavior: smooth; }
+      @keyframes fade-in-up {
+        0% { opacity: 0; transform: translateY(20px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      .animate-fade-in-up { animation: fade-in-up 0.8s ease-out both; }
+      .aos-fade { opacity: 0; transform: translateY(30px); transition: all 0.8s ease; }
+      .aos-fade.aos-animate { opacity: 1; transform: translateY(0); }
+      .floating-button, .chat-button {
+        position: fixed; bottom: 30px; right: 30px;
+        background-color: #607afb; color: white;
+        padding: 10px 15px; border-radius: 9999px;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        cursor: pointer; z-index: 100;
+      }
+      .chat-button { right: 90px; }
+      .dark-mode {
+        background-color: #1a1a1a; color: #f8f9fc;
+      }
+      .dark-mode .bg-white { background-color: #2a2a2a !important; }
+      .dark-mode .text-gray-500, .dark-mode .text-gray-700 { color: #cfcfcf !important; }
+      .progress-bar {
+        position: fixed; top: 0; left: 0; height: 4px;
+        background: #607afb; z-index: 9999;
+        width: 0;
+      }
+      .review-card:hover { transform: scale(1.03); transition: transform 0.3s ease; }
+    </style>
+  </head>
+  <body class="bg-[#f8f9fc] font-[\"Be Vietnam Pro\", \"Noto Sans\", sans-serif] text-[#0d0f1c]">
+    <div class="progress-bar" id="progressBar"></div>
+    <button onclick="toggleDarkMode()" class="fixed top-4 right-4 z-50 px-4 py-2 bg-[#607afb] text-white rounded-full text-xs shadow-lg">Toggle Dark Mode</button>
+    <a id="backToTop" href="#" class="floating-button">↑ Top</a>
+    <a class="chat-button" href="mailto:contact@abrartraders.com">💬 Chat</a>
+
+    <div id="spinner" class="fixed inset-0 z-50 flex items-center justify-center bg-white">
+      <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-[#607afb]"></div>
+    </div>
+
+    <main id="app">
+      <section id="home" class="min-h-screen bg-cover bg-center flex flex-col justify-center items-center text-center p-10 animate-fade-in-up" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url('https://source.unsplash.com/1600x600/?paper,stationery');">
+        <h1 class="text-5xl text-white font-extrabold mb-4">ABRAR TRADERS</h1>
+        <p class="text-lg text-white mb-6">Premium Paper & Packaging Solutions</p>
+        <a href="#products" class="bg-[#607afb] hover:bg-blue-700 text-white py-2 px-6 rounded-full shadow-lg">Explore Products</a>
+      </section>
+
+      <section id="products" class="py-16 px-6 bg-white animate-fade-in-up">
+        <h2 class="text-3xl font-bold text-center mb-8">Our Products</h2>
+        <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div class="bg-white rounded-xl shadow-lg p-4 transform hover:scale-105 transition aos-fade">
+            <img src="https://source.unsplash.com/300x200/?paper" class="rounded mb-2" />
+            <h3 class="font-semibold text-lg">Printing Paper</h3>
+            <p class="text-sm text-gray-500">High-quality paper for home and office printers.</p>
+          </div>
+          <div class="bg-white rounded-xl shadow-lg p-4 transform hover:scale-105 transition aos-fade">
+            <img src="https://source.unsplash.com/300x200/?stationery" class="rounded mb-2" />
+            <h3 class="font-semibold text-lg">Stationery</h3>
+            <p class="text-sm text-gray-500">Stylish notebooks, pens, folders, and more.</p>
+          </div>
+          <div class="bg-white rounded-xl shadow-lg p-4 transform hover:scale-105 transition aos-fade">
+            <img src="https://source.unsplash.com/300x200/?packaging" class="rounded mb-2" />
+            <h3 class="font-semibold text-lg">Packaging Materials</h3>
+            <p class="text-sm text-gray-500">Eco-friendly, strong packaging for all businesses.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="py-16 px-6 bg-[#f9fafb] animate-fade-in-up">
+        <h2 class="text-3xl font-bold text-center mb-8">Customer Reviews</h2>
+        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div class="bg-white rounded-lg shadow-md p-6 aos-fade review-card">
+            <p class="text-sm text-gray-700 italic">"Excellent quality papers and on-time delivery. Highly recommend!"</p>
+            <div class="mt-4 font-semibold">— Priya Sharma</div>
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-6 aos-fade review-card">
+            <p class="text-sm text-gray-700 italic">"Great customer service and eco-friendly packaging options."</p>
+            <div class="mt-4 font-semibold">— Ahmed Khan</div>
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-6 aos-fade review-card">
+            <p class="text-sm text-gray-700 italic">"Top-notch supplier for bulk stationery. Always reliable."</p>
+            <div class="mt-4 font-semibold">— Meera Joshi</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="py-16 px-6 bg-[#f0f2fa] animate-fade-in-up">
+        <h2 class="text-3xl font-bold text-center mb-8">About Us</h2>
+        <div class="max-w-4xl mx-auto text-center text-gray-700">
+          <p>For over a decade, Abrar Traders has been a trusted name in the paper industry. We supply top-grade paper and packaging to businesses across India with a focus on sustainability, quality, and satisfaction.</p>
+        </div>
+      </section>
+
+      <section id="contact" class="py-16 px-6 bg-white animate-fade-in-up">
+        <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
+        <div class="max-w-xl mx-auto">
+          <form class="space-y-4">
+            <input type="text" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded-lg" required />
+            <input type="email" placeholder="Your Email" class="w-full p-3 border border-gray-300 rounded-lg" required />
+            <textarea placeholder="Your Message" rows="4" class="w-full p-3 border border-gray-300 rounded-lg" required></textarea>
+            <button type="submit" class="w-full bg-[#607afb] text-white py-3 rounded-lg hover:bg-blue-700 transition">Send Message</button>
+          </form>
+          <div class="mt-8">
+            <iframe class="w-full h-64 rounded-xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.27991430686!2d-74.2598678446095!3d40.697670063076474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzU0LjYiTiA3NMKwMTUnMzcuMiJX!5e0!3m2!1sen!2sus!4v1614089987590!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </section>
+
+      <footer class="text-center py-6 text-sm text-gray-500 bg-[#e6e9f4]">
+        © 2025 ABRAR TRADERS. All rights reserved.
+      </footer>
+    </main>
+
+    <script>
+      window.addEventListener('load', () => {
+        document.getElementById('spinner').style.display = 'none';
+      });
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) entry.target.classList.add("aos-animate");
+        });
+      }, { threshold: 0.1 });
+      document.querySelectorAll('.aos-fade').forEach(el => observer.observe(el));
+
+      function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode');
+      }
+
+      window.onscroll = function () {
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrolled = (scrollTop / scrollHeight) * 100;
+        document.getElementById("progressBar").style.width = scrolled + "%";
+        document.getElementById("backToTop").classList.toggle('visible', scrollTop > 300);
+      };
+    </script>
+  </body>
+</html>
