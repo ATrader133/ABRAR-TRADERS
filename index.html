@@ -1,410 +1,1105 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ABRAR TRADERS</title>
-  <meta name="description" content="Premium quality paper products and packaging supplies." />
-  <meta name="author" content="ABRAR TRADERS" />
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-  <meta property="og:title" content="ABRAR TRADERS" />
-  <meta property="og:description" content="Premium quality paper products and packaging supplies." />
-  <meta property="og:image" content="https://i.postimg.cc/mg9xFDRQ/Whats-App-Image-2025-05-29-at-9-21-00-PM-removebg-preview.png" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://abrartraders.co.in/" />
-  <link rel="icon" href="https://i.postimg.cc/2j7LbY5v/favicon-96x96.png" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700;900&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABRAR TRADERS - Premium Paper Products & Packaging Supplies</title>
+    <meta name="description" content="ABRAR TRADERS: Your trusted source for premium quality paper products, sustainable packaging solutions, and bulk stationery supplies across India.">
+    <meta name="keywords" content="Abrar Traders, paper products, packaging supplies, kraft paper, duplex paper, laminated board, grey board, stationery, eco-friendly packaging, paper supplier India, bulk paper, industrial paper, custom packaging, paper board, cardboard, office supplies Surat">
+    <meta name="author" content="ABRAR TRADERS" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta property="og:title" content="ABRAR TRADERS - Premium Paper & Packaging" />
+    <meta property="og:description" content="Premium quality paper products and packaging supplies with eco-friendly solutions and fast delivery across India." />
+    <meta property="og:image" content="https://i.postimg.cc/mg9xFDRQ/Whats-App-Image-2025-05-29-at-9-21-00-PM-removebg-preview.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://abrartraders.co.in/" />
+    <link rel="icon" href="https://i.postimg.cc/2j7LbY5v/favicon-96x96.png" type="image/png" />
 
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QW4TG03G24"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-QW4TG03G24');
-  </script>
+    <link rel="preload" href="https://i.postimg.cc/mg9xFDRQ/Whats-App-Image-2025-05-29-at-9-21-00-PM-removebg-preview.png" as="image">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700;900&display=swap" as="style">
 
-  <style>
-    html { scroll-behavior: smooth; }
-    .progress-bar { position: fixed; top: 0; left: 0; height: 4px; background: linear-gradient(to right, #607afb, #8e9bfa); width: 0; z-index: 9999; }
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.0/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.0/dist/js/splide.min.js"></script>
 
-    .glass {
-      backdrop-filter: blur(16px) saturate(180%);
-      background-color: rgba(255, 255, 255, 0.7);
-      border-radius: 16px;
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
-    }
 
-    .sticky-nav {
-      position: sticky;
-      top: 0;
-      z-index: 40;
-      background: rgba(255, 255, 255, 0.7);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid #e2e8f0;
-    }
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QW4TG03G24"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-QW4TG03G24');
+    </script>
 
-    .social-sidebar {
-      position: fixed;
-      top: 40%;
-      left: 0;
-      display: flex;
-      flex-direction: column;
-      z-index: 9999;
-      transition: transform 0.3s ease, opacity 0.3s ease;
-    }
-    .social-sidebar.minimized {
-      transform: translateX(-90%);
-      opacity: 0.4;
-    }
-    .social-icon {
-      background-color: white;
-      border: 2px solid #607afb;
-      width: 36px;
-      height: 36px;
-      margin: 5px 0;
-      border-top-right-radius: 8px;
-      border-bottom-right-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: transform 0.2s ease;
-    }
-    .social-icon:hover { transform: scale(1.1); }
-    .social-icon img {
-      width: 20px;
-      height: 20px;
-      filter: invert(34%) sepia(86%) saturate(509%) hue-rotate(205deg) brightness(95%) contrast(91%);
-    }
+    <style>
+        :root {
+            --primary-color: #607afb; /* Blue */
+            --secondary-color: #8e9bfa; /* Indigo */
+            --accent-color: #a78bfa; /* Light Purple for secondary accents */
+            --text-color: #0d0f1c;
+            --bg-light: #f8f9fc;
+            --bg-medium: #e6e9f4;
+            --glass-bg: rgba(255, 255, 255, 0.7);
+            --glass-border: rgba(255, 255, 255, 0.3);
+            --glass-shadow: rgba(31, 38, 135, 0.3);
+        }
 
-    svg .line1, svg .line2, svg .line3 {
-      transition: all 0.3s ease;
-      transform-origin: center;
-    }
-    .menu-open svg .line1 { transform: rotate(45deg) translate(5px, 5px); }
-    .menu-open svg .line2 { opacity: 0; }
-    .menu-open svg .line3 { transform: rotate(-45deg) translate(5px, -5px); }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+            color: var(--text-color);
+            background: linear-gradient(to tr, var(--bg-light), var(--bg-medium));
+            scrollbar-width: thin;
+            scrollbar-color: var(--primary-color) var(--bg-light);
+        }
+        body::-webkit-scrollbar { width: 8px; }
+        body::-webkit-scrollbar-track { background: var(--bg-light); }
+        body::-webkit-scrollbar-thumb { background-color: var(--primary-color); border-radius: 4px; border: 2px solid var(--bg-light); }
 
-    #mobileMenu {
-      position: fixed;
-      top: 0;
-      right: 0;
-      width: 80%;
-      max-width: 320px;
-      height: 100vh;
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(16px);
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 2rem;
-      transform: translateX(100%);
-      pointer-events: none;
-      opacity: 0;
-      transition: transform 0.4s ease, opacity 0.4s ease;
-      z-index: 60;
-    }
-    #mobileMenu.open {
-      transform: translateX(0);
-      opacity: 1;
-      pointer-events: auto;
-    }
-    #mobileMenu a {
-      font-size: 1.5rem;
-      font-weight: 600;
-      color: #0d0f1c;
-      transition: transform 0.2s ease;
-    }
-    #mobileMenu a:hover {
-      color: #607afb;
-      transform: scale(1.1);
-    }
 
-    #menuBackdrop {
-      position: fixed;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.5);
-      backdrop-filter: blur(4px);
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.4s ease, backdrop-filter 0.4s ease;
-      z-index: 50;
-    }
-    #menuBackdrop.open {
-      opacity: 1;
-      pointer-events: auto;
-    }
+        .progress-bar { position: fixed; top: 0; left: 0; height: 4px; background: linear-gradient(to right, var(--primary-color), var(--secondary-color)); width: 0; z-index: 9999; }
 
-    body.menu-opened {
-      overflow: hidden;
-      touch-action: none;
-    }
+        .glass {
+            backdrop-filter: blur(16px) saturate(180%);
+            background-color: var(--glass-bg);
+            border-radius: 16px;
+            border: 1px solid var(--glass-border);
+            box-shadow: 0 8px 32px var(--glass-shadow);
+        }
 
-    button#menuButton {
-      padding: 0.5rem;
-      border-radius: 0.5rem;
-    }
-  </style>
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            z-index: 40;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid #e2e8f0;
+            transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+        }
+        .sticky-nav.scrolled {
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        /* Navbar link hover effect */
+        .nav-link {
+            position: relative;
+            padding-bottom: 4px;
+            transition: color 0.3s ease;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 50%;
+            background-color: var(--primary-color);
+            transition: width 0.3s ease, left 0.3s ease;
+        }
+        .nav-link:hover::after, .nav-link.active::after {
+            width: 100%;
+            left: 0;
+        }
+        .nav-link:hover { color: var(--primary-color); }
+        .nav-link.active { color: var(--primary-color); font-weight: 700; }
+
+        .social-sidebar {
+            position: fixed;
+            top: 40%;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            z-index: 9999;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+        .social-sidebar.minimized {
+            transform: translateX(-90%);
+            opacity: 0.4;
+        }
+        .social-sidebar .social-icon {
+            background-color: white;
+            border: 2px solid var(--primary-color);
+            width: 40px;
+            height: 40px;
+            margin: 5px 0;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+        }
+        .social-sidebar .social-icon:hover {
+            transform: translateX(10px) scale(1.05);
+            box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+        }
+        .social-sidebar .social-icon img {
+            width: 22px;
+            height: 22px;
+            filter: invert(34%) sepia(86%) saturate(509%) hue-rotate(205deg) brightness(95%) contrast(91%);
+        }
+
+        svg .line1, svg .line2, svg .line3 {
+            transition: all 0.3s ease;
+            transform-origin: center;
+        }
+        .menu-open svg .line1 { transform: rotate(45deg) translate(5px, 5px); }
+        .menu-open svg .line2 { opacity: 0; }
+        .menu-open svg .line3 { transform: rotate(-45deg) translate(5px, -5px); }
+
+        #mobileMenu {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 80%;
+            max-width: 320px;
+            height: 100vh;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(20px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2.5rem;
+            transform: translateX(100%);
+            pointer-events: none;
+            opacity: 0;
+            transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), opacity 0.4s ease;
+            z-index: 60;
+        }
+        #mobileMenu.open {
+            transform: translateX(0);
+            opacity: 1;
+            pointer-events: auto;
+        }
+        #mobileMenu a {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--text-color);
+            transition: transform 0.2s ease, color 0.2s ease;
+        }
+        #mobileMenu a:hover {
+            color: var(--primary-color);
+            transform: scale(1.1);
+        }
+
+        #menuBackdrop, #productModalBackdrop {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(6px);
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.4s ease, backdrop-filter 0.4s ease;
+            z-index: 50;
+        }
+        #menuBackdrop.open, #productModalBackdrop.open {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        body.menu-opened {
+            overflow: hidden;
+            touch-action: none;
+        }
+
+        button#menuButton {
+            padding: 0.6rem;
+            border-radius: 0.75rem;
+            transition: background-color 0.2s ease;
+        }
+
+        /* Product Card hover effect */
+        .product-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer; /* Indicate clickability */
+        }
+        .product-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(96,122,251,0.1), rgba(142,155,250,0.1));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: -1;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(31, 38, 135, 0.2);
+        }
+        .product-card:hover::before {
+            opacity: 1;
+        }
+
+        /* Button hover effects */
+        .action-button {
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+        .action-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(120deg, transparent, rgba(96,122,251,0.2), transparent);
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            z-index: -1;
+        }
+        .action-button:hover::before {
+            left: 0;
+        }
+        .action-button:active {
+            transform: scale(0.98);
+        }
+
+        /* Review Card design */
+        .review-card {
+            border-left: 5px solid var(--primary-color);
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        .review-card::before {
+            content: "“";
+            position: absolute;
+            top: 0;
+            left: 0.5rem;
+            font-size: 3rem;
+            color: rgba(96,122,251,0.2);
+            font-family: sans-serif;
+            line-height: 1;
+        }
+
+        /* Keyframes for animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes blob {
+            0% { transform: translate(0px, 0px) scale(1); }
+            33% { transform: translate(30px, -50px) scale(1.1); }
+            66% { transform: translate(-20px, 20px) scale(0.9); }
+            100% { transform: translate(0px, 0px) scale(1); }
+        }
+        .animate-fade-in { animation: fadeIn 1s ease-out forwards; }
+        .animate-fade-in-delay { animation: fadeIn 1s ease-out 0.5s forwards; }
+        .animate-slide-up { animation: slideUp 0.8s ease-out forwards; }
+        .animate-blob { animation: blob 7s infinite cubic-bezier(0.64, 0.01, 0.45, 0.94); }
+        .animation-delay-2000 { animation-delay: 2s; }
+        .animation-delay-4000 { animation-delay: 4s; }
+
+        /* Product Modal specific styles */
+        #productModal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.9);
+            opacity: 0;
+            visibility: hidden;
+            transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+            z-index: 1000;
+            max-width: 90%;
+            max-height: 90%;
+            overflow-y: auto;
+        }
+        #productModal.open {
+            transform: translate(-50%, -50%) scale(1);
+            opacity: 1;
+            visibility: visible;
+        }
+        #productModal .close-button {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: white;
+            border-radius: 50%;
+            padding: 0.5rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        #productModal .close-button:hover {
+            transform: scale(1.1);
+        }
+
+        /* Gallery Image Hover Effect */
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+        }
+        .gallery-item img {
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+        .gallery-item::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: rgba(0,0,0,0.2);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .gallery-item:hover::after {
+            opacity: 1;
+        }
+    </style>
 </head>
-<body class="bg-gradient-to-tr from-[#f8f9fc] to-[#e6e9f4] font-['Be Vietnam Pro'] text-[#0d0f1c]">
+<body class="font-['Be Vietnam Pro'] text-gray-900">
 
-  <!-- Progress Bar -->
-  <div class="progress-bar" id="progressBar"></div>
+    <div class="progress-bar" id="progressBar"></div>
 
-  <!-- Backdrop -->
-  <div id="menuBackdrop"></div>
+    <div id="menuBackdrop" role="presentation"></div>
+    <div id="productModalBackdrop" role="presentation"></div>
 
-  <!-- Social Sidebar -->
-  <div class="social-sidebar" id="socialSidebar">
-    <a href="#" class="social-icon" aria-label="Facebook"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook"></a>
-    <a href="#" class="social-icon" aria-label="Instagram"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram"></a>
-    <a href="https://wa.me/917405108950" class="social-icon" aria-label="WhatsApp"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp"></a>
-    <a href="#" class="social-icon" aria-label="LinkedIn"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn"></a>
-  </div>
-
-  <!-- Spinner -->
-  <div id="spinner" class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-white">
-    <img src="https://i.ibb.co/SfjYyN5/logo.png" class="h-16 animate-bounce mb-4" alt="Spinner" />
-    <div class="animate-spin rounded-full h-12 w-12 border-b-4 border-[#607afb]"></div>
-  </div>
-
-  <!-- Particle Background -->
-  <div id="tsparticles" class="absolute top-0 left-0 w-full h-full -z-10"></div>
-
-  <!-- Navbar -->
-  <nav class="sticky-nav flex justify-between items-center px-6 py-4" role="navigation">
-    <div class="flex items-center space-x-4">
-      <img src="https://i.postimg.cc/mg9xFDRQ/Whats-App-Image-2025-05-29-at-9-21-00-PM-removebg-preview.png" alt="Abrar Traders Logo" class="h-10 rounded-full" />
-      <span class="font-bold text-xl">ABRAR TRADERS</span>
+    <div class="social-sidebar" id="socialSidebar">
+        <a href="https://www.facebook.com/your-page" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Connect on Facebook"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook"></a>
+        <a href="https://www.instagram.com/your-page" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Connect on Instagram"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram"></a>
+        <a href="https://wa.me/917405108950" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Message us on WhatsApp"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp"></a>
+        <a href="https://www.linkedin.com/company/your-company" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Connect on LinkedIn"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn"></a>
     </div>
-    <div class="hidden md:flex items-center space-x-6">
-      <a href="#home">Home</a>
-      <a href="#products">Products</a>
-      <a href="#reviews">Reviews</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+
+    <div id="spinner" class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-white">
+        <img src="https://i.ibb.co/SfjYyN5/logo.png" class="h-20 animate-bounce mb-6" alt="Abrar Traders Logo Spinner" />
+        <div class="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-blue-600"></div>
     </div>
-    <button id="menuButton" class="md:hidden focus:outline-none p-2 rounded-lg hover:bg-blue-50" aria-label="Menu" aria-expanded="false">
-      <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path class="line1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16"/>
-        <path class="line2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16"/>
-        <path class="line3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 18h16"/>
-      </svg>
+
+    <div id="tsparticles" class="absolute top-0 left-0 w-full h-full -z-10"></div>
+
+    <nav class="sticky-nav flex justify-between items-center px-6 py-4" role="navigation" aria-label="Main Navigation">
+        <div class="flex items-center space-x-4">
+            <img src="https://i.postimg.cc/mg9xFDRQ/Whats-App-Image-2025-05-29-at-9-21-00-PM-removebg-preview.png" alt="Abrar Traders Logo" class="h-12 rounded-full shadow-md" />
+            <span class="font-black text-2xl bg-gradient-to-r from-blue-600 to-indigo-700 bg-clip-text text-transparent">ABRAR TRADERS</span>
+        </div>
+        <div class="hidden md:flex items-center space-x-7">
+            <a href="#home" class="nav-link" data-section="home">Home</a>
+            <a href="#products" class="nav-link" data-section="products">Products</a>
+            <a href="#reviews" class="nav-link" data-section="reviews">Reviews</a>
+            <a href="#blog" class="nav-link" data-section="blog">Blog</a>
+            <a href="#gallery" class="nav-link" data-section="gallery">Gallery</a>
+            <a href="#about" class="nav-link" data-section="about">About</a>
+            <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+        </div>
+        <button id="menuButton" class="md:hidden focus:outline-none p-2 rounded-lg hover:bg-blue-100 transition-colors" aria-label="Open Mobile Menu" aria-expanded="false">
+            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path class="line1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16"/>
+                <path class="line2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16"/>
+                <path class="line3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 18h16"/>
+            </svg>
+        </button>
+    </nav>
+
+    <div id="mobileMenu" role="dialog" aria-modal="true" aria-labelledby="mobileMenuTitle">
+        <h2 id="mobileMenuTitle" class="sr-only">Mobile Navigation Menu</h2>
+        <button id="closeMenuButton" class="absolute top-6 right-6 p-2 rounded-full bg-blue-50 hover:bg-blue-100 transition-colors" aria-label="Close Mobile Menu">
+            <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+        </button>
+
+        <a href="#home" class="nav-link" data-section="home">Home</a>
+        <a href="#products" class="nav-link" data-section="products">Products</a>
+        <a href="#reviews" class="nav-link" data-section="reviews">Reviews</a>
+        <a href="#blog" class="nav-link" data-section="blog">Blog</a>
+        <a href="#gallery" class="nav-link" data-section="gallery">Gallery</a>
+        <a href="#about" class="nav-link" data-section="about">About</a>
+        <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+    </div>
+
+
+    <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center p-6 sm:p-10 relative overflow-hidden">
+        <div class="absolute top-1/4 left-1/4 w-48 h-48 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-2000 z-0"></div>
+        <div class="absolute top-1/2 right-1/4 w-64 h-64 bg-indigo-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000 z-0"></div>
+        <div class="absolute bottom-1/4 left-1/3 w-56 h-56 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob z-0"></div>
+
+        <img loading="eager" src="https://i.postimg.cc/mg9xFDRQ/Whats-App-Image-2025-05-29-at-9-21-00-PM-removebg-preview.png" alt="Abrar Traders Main Logo" class="h-32 sm:h-40 mb-6 relative z-10 animate-fade-in" />
+        <h1 class="text-5xl sm:text-7xl font-extrabold mb-4 bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent leading-tight relative z-10 animate-slide-up">
+            ABRAR TRADERS
+        </h1>
+        <p class="text-xl sm:text-2xl text-gray-700 mb-8 font-medium relative z-10 animate-fade-in-delay"><span id="typed"></span></p>
+        <a href="#products" class="action-button glass px-8 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 text-blue-700 font-bold text-lg relative z-10" aria-label="Explore Our Products">Explore Products</a>
+    </section>
+
+    <section id="products" class="py-20 px-6 bg-white overflow-hidden" data-aos="fade-up">
+        <h2 class="text-4xl font-extrabold text-center mb-8 text-gray-800">Our Products</h2>
+
+        <div class="flex flex-wrap justify-center gap-3 mb-10 max-w-xl mx-auto">
+            <button class="filter-btn bg-blue-600 text-white px-5 py-2 rounded-full font-semibold hover:bg-blue-700 transition-colors" data-filter="all">All Products</button>
+            <button class="filter-btn bg-gray-200 text-gray-700 px-5 py-2 rounded-full font-semibold hover:bg-blue-100 hover:text-blue-700 transition-colors" data-filter="paper">Paper Products</button>
+            <button class="filter-btn bg-gray-200 text-gray-700 px-5 py-2 rounded-full font-semibold hover:bg-blue-100 hover:text-blue-700 transition-colors" data-filter="board">Paper Boards</button>
+            <button class="filter-btn bg-gray-200 text-gray-700 px-5 py-2 rounded-full font-semibold hover:bg-blue-100 hover:text-blue-700 transition-colors" data-filter="packaging">Packaging Supplies</button>
+        </div>
+
+        <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto" id="productGrid">
+            <div class="glass p-8 product-card shadow-md hover:shadow-lg product-item" data-category="paper packaging" data-aos="fade-up" data-aos-delay="100"
+                data-name="Kraft Paper Rolls"
+                data-image="https://i.postimg.cc/ZKBYVJ4q/Kraft-Paper-1.jpg"
+                data-description="Durable, versatile, and eco-friendly Kraft paper, ideal for packaging, wrapping, and various industrial applications. Available in multiple grades and thicknesses to suit your needs."
+                data-specifications="<li>**GSM:** 80-250</li><li>**Widths:** Custom sizes available</li><li>**Color:** Natural Brown</li><li>**Usage:** Industrial packaging, paper bags, protective wrapping</li>"
+                data-additional-info="Kraft paper is known for its high tear resistance and burst strength, making it perfect for heavy-duty applications. Our Kraft paper is sourced sustainably."
+            >
+                <img loading="lazy" src="https://i.postimg.cc/ZKBYVJ4q/Kraft-Paper-1.jpg" class="rounded-xl mb-6 w-full h-48 object-cover shadow-sm" alt="Kraft Paper"/>
+                <h3 class="font-semibold text-2xl mb-3 text-gray-800">Kraft Paper</h3>
+                <p class="text-gray-600 leading-relaxed">High-quality paper for industrial purposes.</p>
+            </div>
+            <div class="glass p-8 product-card shadow-md hover:shadow-lg product-item" data-category="board packaging" data-aos="fade-up" data-aos-delay="200"
+                data-name="Duplex Paper Board"
+                data-image="https://i.postimg.cc/ZqcJCRFw/duplex-paper-sheet-500x500.jpg"
+                data-description="High-quality duplex board for all your print packaging needs. Its smooth surface provides excellent printability, while its strength ensures secure and attractive packaging."
+                data-specifications="<li>**GSM:** 200-450</li><li>**Coating:** Grey back, White back</li><li>**Surface:** Smooth for printing</li><li>**Usage:** Pharmaceutical packaging, consumer goods boxes, display cartons</li>"
+                data-additional-info="Our Duplex boards offer excellent stiffness and consistency, crucial for high-speed packaging lines and premium print finishes."
+            >
+                <img loading="lazy" src="https://i.postimg.cc/ZqcJCRFw/duplex-paper-sheet-500x500.jpg" class="rounded-xl mb-6 w-full h-48 object-cover shadow-sm" alt="Duplex Paper"/>
+                <h3 class="font-semibold text-2xl mb-3 text-gray-800">Duplex Paper</h3>
+                <p class="text-gray-600 leading-relaxed">Paper for all print packaging.</p>
+            </div>
+            <div class="glass p-8 product-card shadow-md hover:shadow-lg product-item" data-category="board packaging" data-aos="fade-up" data-aos-delay="300"
+                data-name="Laminated Paper Board"
+                data-image="https://i.postimg.cc/HxMDbkQG/1.jpg"
+                data-description="Strong, multi-layered laminated boards offering superior protection and rigidity. Perfect for durable and robust packaging solutions for heavy or delicate items."
+                data-specifications="<li>**Thickness:** 1mm-5mm</li><li>**Finish:** Glossy, Matte</li><li>**Core:** Grey board, Chipboard</li><li>**Usage:** Luxury packaging, industrial cartons, book binding</li>"
+                data-additional-info="Laminated boards provide enhanced moisture resistance and structural integrity, making them ideal for high-end applications and protective packaging."
+            >
+                <img loading="lazy" src="https://i.postimg.cc/HxMDbkQG/1.jpg" class="rounded-xl mb-6 w-full h-48 object-cover shadow-sm" alt="Laminated Board"/>
+                <h3 class="font-semibold text-2xl mb-3 text-gray-800">Laminated Board</h3>
+                <p class="text-gray-600 leading-relaxed">Eco-friendly, strong packaging for businesses.</p>
+            </div>
+            <div class="glass p-8 product-card shadow-md hover:shadow-lg product-item" data-category="board packaging" data-aos="fade-up" data-aos-delay="400"
+                data-name="Sundry Grey Board"
+                data-image="https://i.postimg.cc/wBhQJK7f/grey-paper-board-500x500.jpg"
+                data-description="Versatile and strong grey board, an economical choice for various packaging and binding applications. Made from recycled materials, it's also an environmentally conscious option."
+                data-specifications="<li>**Thickness:** 0.8mm-4mm</li><li>**Density:** High density</li><li>**Color:** Grey</li><li>**Usage:** Notebook covers, file folders, puzzle backs, general packaging</li>"
+                data-additional-info="Our Sundry Grey Board is made from 100% recycled paper, contributing to a sustainable supply chain while offering robust performance."
+            >
+                <img loading="lazy" src="https://i.postimg.cc/wBhQJK7f/grey-paper-board-500x500.jpg" class="rounded-xl mb-6 w-full h-48 object-cover shadow-sm" alt="Grey Board"/>
+                <h3 class="font-semibold text-2xl mb-3 text-gray-800">Sundry Grey Board</h3>
+                <p class="text-gray-600 leading-relaxed">Strong, eco-friendly grey board for packaging.</p>
+            </div>
+            <div class="glass p-8 product-card shadow-md hover:shadow-lg product-item" data-category="paper" data-aos="fade-up" data-aos-delay="500"
+                data-name="Bond Paper"
+                data-image="https://via.placeholder.com/400x250/C0D9FF/3F51B5?text=Bond+Paper"
+                data-description="High-quality bond paper, perfect for office use, printing, and professional documents. Available in various weights and sizes."
+                data-specifications="<li>**GSM:** 70-100</li><li>**Finish:** Smooth, bright white</li><li>**Usage:** Printing, copying, official documents, letterheads</li>"
+                data-additional-info="Our bond paper offers excellent ink absorption and crisp text reproduction, making it ideal for all your printing needs."
+            >
+                <img loading="lazy" src="https://via.placeholder.com/400x250/C0D9FF/3F51B5?text=Bond+Paper" class="rounded-xl mb-6 w-full h-48 object-cover shadow-sm" alt="Bond Paper"/>
+                <h3 class="font-semibold text-2xl mb-3 text-gray-800">Bond Paper</h3>
+                <p class="text-gray-600 leading-relaxed">Premium quality paper for office and printing.</p>
+            </div>
+            <div class="glass p-8 product-card shadow-md hover:shadow-lg product-item" data-category="paper" data-aos="fade-up" data-aos-delay="600"
+                data-name="Art Paper"
+                data-image="https://via.placeholder.com/400x250/FFE0B2/FF9800?text=Art+Paper"
+                data-description="Coated art paper for high-fidelity printing, ideal for brochures, magazines, and marketing materials."
+                data-specifications="<li>**GSM:** 120-350</li><li>**Finish:** Glossy, Matte</li><li>**Usage:** Brochures, flyers, magazines, book covers, calendars</li>"
+                data-additional-info="Art paper ensures vibrant colors and sharp images, making your printed materials stand out with a premium feel."
+            >
+                <img loading="lazy" src="https://via.placeholder.com/400x250/FFE0B2/FF9800?text=Art+Paper" class="rounded-xl mb-6 w-full h-48 object-cover shadow-sm" alt="Art Paper"/>
+                <h3 class="font-semibold text-2xl mb-3 text-gray-800">Art Paper</h3>
+                <p class="text-gray-600 leading-relaxed">Coated paper for high-quality printing.</p>
+            </div>
+        </div>
+    </section>
+
+    <div id="productModal" class="glass p-8 rounded-2xl shadow-2xl z-50 fixed hidden" role="dialog" aria-modal="true" aria-labelledby="productModalTitle">
+        <button class="close-button" aria-label="Close Product Details">
+            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+        <div class="md:flex md:gap-8">
+            <img id="modalProductImage" src="" alt="" class="rounded-lg w-full md:w-1/2 h-64 object-cover mb-6 md:mb-0">
+            <div class="md:w-1/2">
+                <h3 id="modalProductName" class="text-3xl font-bold mb-4 text-gray-800"></h3>
+                <p id="modalProductDescription" class="text-gray-700 mb-4 leading-relaxed"></p>
+                <div class="mb-4">
+                    <h4 class="font-semibold text-lg text-blue-700 mb-2">Specifications:</h4>
+                    <ul id="modalProductSpecifications" class="list-disc list-inside text-gray-600 leading-relaxed">
+                        </ul>
+                </div>
+                <div class="mb-6">
+                    <h4 class="font-semibold text-lg text-blue-700 mb-2">Additional Information:</h4>
+                    <p id="modalProductAdditionalInfo" class="text-gray-600 leading-relaxed"></p>
+                </div>
+                <a href="#quote" class="action-button bg-blue-600 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-blue-700 transition-all duration-300 font-bold">Request a Quote for this Product</a>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="reviews" class="py-20 px-6 bg-[#f9fafb] overflow-hidden" data-aos="fade-up">
+        <h2 class="text-4xl font-extrabold text-center mb-12 text-gray-800">What Our Clients Say</h2>
+        <div class="splide max-w-6xl mx-auto" role="group" aria-label="Customer Testimonials Carousel">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="glass p-8 review-card shadow-md flex flex-col h-full">
+                            <p class="text-gray-700 italic text-lg leading-relaxed mb-4 flex-grow">"Abrar Traders consistently delivers excellent quality papers and ensures on-time delivery. Their reliability makes them our preferred supplier. Highly recommend!"</p>
+                            <div class="mt-auto font-bold text-blue-700 text-lg">— Moosa Maniar</div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="glass p-8 review-card shadow-md flex flex-col h-full">
+                            <p class="text-gray-700 italic text-lg leading-relaxed mb-4 flex-grow">"We are impressed with Abrar Traders' great customer service and their commitment to providing eco-friendly packaging options. A truly responsible business partner."</p>
+                            <div class="mt-auto font-bold text-blue-700 text-lg">— Faisal Kagzi</div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="glass p-8 review-card shadow-md flex flex-col h-full">
+                            <p class="text-gray-700 italic text-lg leading-relaxed mb-4 flex-grow">"For bulk stationery and paper supplies, Abrar Traders is our go-to. Their products are top-notch, and their service is always reliable and efficient. A fantastic supplier!"</p>
+                            <div class="mt-auto font-bold text-blue-700 text-lg">— Usama Sipwala</div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="glass p-8 review-card shadow-md flex flex-col h-full">
+                            <p class="text-gray-700 italic text-lg leading-relaxed mb-4 flex-grow">"The quality of laminated boards from Abrar Traders is exceptional. It has significantly improved our product packaging. Fast and professional service every time!"</p>
+                            <div class="mt-auto font-bold text-blue-700 text-lg">— Sarah Khan</div>
+                        </div>
+                    </li>
+                     <li class="splide__slide">
+                        <div class="glass p-8 review-card shadow-md flex flex-col h-full">
+                            <p class="text-gray-700 italic text-lg leading-relaxed mb-4 flex-grow">"Abrar Traders provides outstanding custom paper solutions. They understood our unique needs perfectly and delivered beyond expectations. Highly satisfied!"</p>
+                            <div class="mt-auto font-bold text-blue-700 text-lg">— Rajesh Mehta</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="py-20 px-6 bg-[#f0f2fa] overflow-hidden" data-aos="fade-up">
+        <h2 class="text-4xl font-extrabold text-center mb-12 text-gray-800">Latest from Our Blog</h2>
+        <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
+            <a href="#" class="glass p-6 rounded-xl shadow-md hover:shadow-lg transition-transform hover:scale-[1.02] block group" data-aos="fade-up" data-aos-delay="100">
+                <img loading="lazy" src="https://via.placeholder.com/400x250/A0D6B1/4CAF50?text=Eco+Packaging" alt="Eco-Friendly Packaging Trends" class="rounded-lg mb-4 w-full h-48 object-cover"/>
+                <h3 class="font-semibold text-xl mb-2 text-gray-800 group-hover:text-blue-700 transition-colors">The Rise of Eco-Friendly Packaging in India</h3>
+                <p class="text-gray-600 text-sm mb-3">Learn about the latest innovations and why sustainable packaging is becoming crucial for businesses.</p>
+                <span class="text-blue-600 text-sm font-semibold">Read More &rarr;</span>
+            </a>
+            <a href="#" class="glass p-6 rounded-xl shadow-md hover:shadow-lg transition-transform hover:scale-[1.02] block group" data-aos="fade-up" data-aos-delay="200">
+                <img loading="lazy" src="https://via.placeholder.com/400x250/B2D8F2/2196F3?text=Paper+Quality" alt="Choosing the Right Paper" class="rounded-lg mb-4 w-full h-48 object-cover"/>
+                <h3 class="font-semibold text-xl mb-2 text-gray-800 group-hover:text-blue-700 transition-colors">How to Choose the Right Paper for Your Business Needs</h3>
+                <p class="text-gray-600 text-sm mb-3">A comprehensive guide to understanding paper types, GSM, and finishes for optimal results.</p>
+                <span class="text-blue-600 text-sm font-semibold">Read More &rarr;</span>
+            </a>
+            <a href="#" class="glass p-6 rounded-xl shadow-md hover:shadow-lg transition-transform hover:scale-[1.02] block group" data-aos="fade-up" data-aos-delay="300">
+                <img loading="lazy" src="https://via.placeholder.com/400x250/FFD180/FF5722?text=Future+Trends" alt="Future of Paper Industry" class="rounded-lg mb-4 w-full h-48 object-cover"/>
+                <h3 class="font-semibold text-xl mb-2 text-gray-800 group-hover:text-blue-700 transition-colors">The Future of Paper: Innovations and Sustainable Practices</h3>
+                <p class="text-gray-600 text-sm mb-3">Explore upcoming trends and how Abrar Traders is contributing to a greener paper industry.</p>
+                <span class="text-blue-600 text-sm font-semibold">Read More &rarr;</span>
+            </a>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-20 px-6 bg-white overflow-hidden" data-aos="fade-up">
+        <h2 class="text-4xl font-extrabold text-center mb-12 text-gray-800">Our Work & Facility</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+            <div class="glass p-2 rounded-xl shadow-md gallery-item" data-aos="zoom-in" data-aos-delay="50">
+                <img loading="lazy" src="https://via.placeholder.com/600x400/80DEEA/00BCD4?text=Warehouse+View" alt="Warehouse View" class="rounded-lg w-full h-48 object-cover"/>
+            </div>
+            <div class="glass p-2 rounded-xl shadow-md gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                <img loading="lazy" src="https://via.placeholder.com/600x400/C5CAE9/3F51B5?text=Paper+Stack" alt="Stacked Paper Rolls" class="rounded-lg w-full h-48 object-cover"/>
+            </div>
+            <div class="glass p-2 rounded-xl shadow-md gallery-item" data-aos="zoom-in" data-aos-delay="150">
+                <img loading="lazy" src="https://via.placeholder.com/600x400/A7FFEB/00838F?text=Quality+Check" alt="Quality Control Process" class="rounded-lg w-full h-48 object-cover"/>
+            </div>
+            <div class="glass p-2 rounded-xl shadow-md gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                <img loading="lazy" src="https://via.placeholder.com/600x400/FFF8E1/FFC107?text=Delivery+Truck" alt="Delivery Truck" class="rounded-lg w-full h-48 object-cover"/>
+            </div>
+            <div class="glass p-2 rounded-xl shadow-md gallery-item" data-aos="zoom-in" data-aos-delay="250">
+                <img loading="lazy" src="https://via.placeholder.com/600x400/F8BBD0/E91E63?text=Client+Meeting" alt="Client Meeting" class="rounded-lg w-full h-48 object-cover"/>
+            </div>
+            <div class="glass p-2 rounded-xl shadow-md gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                <img loading="lazy" src="https://via.placeholder.com/600x400/D1C4E9/673AB7?text=Office+Space" alt="Office Space" class="rounded-lg w-full h-48 object-cover"/>
+            </div>
+            <div class="glass p-2 rounded-xl shadow-md gallery-item" data-aos="zoom-in" data-aos-delay="350">
+                <img loading="lazy" src="https://via.placeholder.com/600x400/B2EBF2/00ACC1?text=Recycling" alt="Recycling Process" class="rounded-lg w-full h-48 object-cover"/>
+            </div>
+            <div class="glass p-2 rounded-xl shadow-md gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                <img loading="lazy" src="https://via.placeholder.com/600x400/FFCCBC/FF5722?text=Product+Display" alt="Product Display" class="rounded-lg w-full h-48 object-cover"/>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 px-6 bg-[#f0f2fa] overflow-hidden" data-aos="fade-up">
+        <h2 class="text-4xl font-extrabold text-center mb-12 text-gray-800">Our Story & Mission</h2>
+        <div class="max-w-4xl mx-auto">
+            <div class="glass p-10 rounded-2xl text-center text-gray-700 shadow-xl relative z-10" data-aos="zoom-in" data-aos-delay="100">
+                <p class="text-lg leading-relaxed">
+                    For over a decade, <strong>Abrar Traders</strong> has proudly served as a leading name in India's paper and packaging industry. We are dedicated to providing <span class="font-extrabold text-blue-700">premium-grade paper products, essential stationery, and robust packaging materials</span> to businesses nationwide.
+                    <br /><br />
+                    Our foundational mission is built upon three core pillars: unwavering <span class="font-extrabold text-indigo-700">quality</span>, steadfast <span class="font-extrabold text-purple-700">sustainability</span>, and absolute <span class="font-extrabold text-blue-700">customer satisfaction</span>. We believe in building lasting relationships through trust and exceptional service.
+                    <br /><br />
+                    Whether your requirement is for the finest office paper, environmentally conscious packaging solutions, or comprehensive bulk stationery supplies, Abrar Traders guarantees delivery with unparalleled <span class="font-extrabold text-blue-700">speed, reliability, and meticulous care</span>. Partner with us for a seamless supply experience.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 px-6 bg-white overflow-hidden" data-aos="fade-up">
+        <h2 class="text-4xl font-extrabold text-center mb-12 text-gray-800">Get In Touch</h2>
+        <div class="max-w-xl mx-auto">
+            <form id="contactForm" class="space-y-6 glass p-8 rounded-2xl shadow-xl" name="submit-to-google-sheet-contact">
+                <input type="hidden" name="form_type" value="contact">
+                <div>
+                    <label for="name" class="sr-only">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-200 text-gray-800" required aria-required="true" />
+                </div>
+                <div>
+                    <label for="email" class="sr-only">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-200 text-gray-800" required aria-required="true" />
+                </div>
+                <div>
+                    <label for="message" class="sr-only">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="6" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-200 text-gray-800" required aria-required="true"></textarea>
+                </div>
+                <button type="submit" class="action-button bg-blue-600 text-white px-8 py-3 rounded-xl shadow-lg hover:bg-blue-700 transition-all duration-300 font-bold w-full">Send Message</button>
+                <p id="formStatusContact" class="text-center mt-4 font-medium"></p>
+            </form>
+        </div>
+    </section>
+
+    <section id="quote" class="py-20 px-6 bg-[#f0f2fa] overflow-hidden" data-aos="fade-up">
+        <h2 class="text-4xl font-extrabold text-center mb-12 text-gray-800">Request a Custom Quote</h2>
+        <div class="max-w-xl mx-auto">
+            <form id="quoteForm" class="space-y-6 glass p-8 rounded-2xl shadow-xl" name="submit-to-google-sheet-quote">
+                <input type="hidden" name="form_type" value="quote">
+                <div>
+                    <label for="quoteName" class="sr-only">Your Name</label>
+                    <input type="text" id="quoteName" name="name" placeholder="Your Name" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-200 text-gray-800" required aria-required="true" />
+                </div>
+                <div>
+                    <label for="quoteEmail" class="sr-only">Your Email</label>
+                    <input type="email" id="quoteEmail" name="email" placeholder="Your Email" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-200 text-gray-800" required aria-required="true" />
+                </div>
+                <div>
+                    <label for="companyName" class="sr-only">Company Name (Optional)</label>
+                    <input type="text" id="companyName" name="company" placeholder="Company Name (Optional)" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-200 text-gray-800" />
+                </div>
+                 <div>
+                    <label for="productOfInterest" class="sr-only">Product of Interest</label>
+                    <input type="text" id="productOfInterest" name="product_interest" placeholder="Product of Interest (e.g., Kraft Paper, Duplex Board)" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-200 text-gray-800" />
+                </div>
+                <div>
+                    <label for="quantity" class="sr-only">Quantity / Specifics</label>
+                    <textarea id="quantity" name="quantity_specifics" placeholder="Quantity needed, specific dimensions, or other details..." rows="6" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-200 text-gray-800" required aria-required="true"></textarea>
+                </div>
+                <button type="submit" class="action-button bg-purple-600 text-white px-8 py-3 rounded-xl shadow-lg hover:bg-purple-700 transition-all duration-300 font-bold w-full">Request Quote</button>
+                <p id="formStatusQuote" class="text-center mt-4 font-medium"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center py-8 text-sm text-gray-600 bg-[#e6e9f4]">
+        <div class="flex justify-center space-x-7 mb-4 font-medium">
+            <a href="#home" class="hover:text-blue-600 transition-colors">Home</a>
+            <a href="#products" class="hover:text-blue-600 transition-colors">Products</a>
+            <a href="#reviews" class="hover:text-blue-600 transition-colors">Reviews</a>
+            <a href="#blog" class="hover:text-blue-600 transition-colors">Blog</a>
+            <a href="#gallery" class="hover:text-blue-600 transition-colors">Gallery</a>
+            <a href="#about" class="hover:text-blue-600 transition-colors">About</a>
+            <a href="#contact" class="hover:text-blue-600 transition-colors">Contact</a>
+            <a href="#quote" class="hover:text-blue-600 transition-colors">Request Quote</a>
+        </div>
+        <div>&copy; <span id="currentYear"></span> ABRAR TRADERS. All rights reserved.</div>
+    </footer>
+
+    <button id="scrollToTopBtn" aria-label="Scroll to top" class="fixed bottom-6 right-6 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition-all duration-300 transform scale-0 opacity-0 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 z-50">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+        </svg>
     </button>
-  </nav>
 
-<!-- Mobile Menu -->
-<div id="mobileMenu">
-  <!-- Close Button -->
-  <button id="closeMenuButton" class="absolute top-4 right-4 p-2 rounded-lg hover:bg-blue-100" aria-label="Close Menu">
-    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-    </svg>
-  </button>
+    <a href="https://wa.me/917405108950" class="fixed bottom-6 left-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors flex items-center justify-center text-lg font-semibold" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+        <svg class="w-6 h-6 mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.42 1.34 4.88l-1.39 5.09 5.2-.84c1.43.79 3.05 1.25 4.76 1.25 5.46 0 9.91-4.45 9.91-9.91s-4.45-9.91-9.91-9.91zm.01 1.76c4.5 0 8.15 3.65 8.15 8.15s-3.65 8.15-8.15 8.15c-1.5 0-2.92-.41-4.14-1.18l-.29-.16-3.03.49.5-2.82-.19-.31c-.81-1.32-1.29-2.83-1.29-4.46 0-4.5 3.65-8.15 8.15-8.15zm.01 2.82c-2.48 0-4.5 2.02-4.5 4.5 0 1.05.37 2.05 1.04 2.89l.06.07-.46 1.7-.01.05.02.01c.1.06.2.1.31.14l1.63-.44.05-.01.06.03c.77.42 1.63.66 2.54.66 2.48 0 4.5-2.02 4.5-4.5s-2.02-4.5-4.5-4.5zm.01 1.7c1.48 0 2.68 1.2 2.68 2.68s-1.2 2.68-2.68 2.68-2.68-1.2-2.68-2.68 1.2-2.68 2.68-2.68z"/></svg>
+        <span>Chat</span>
+    </a>
 
-  <!-- Menu Links -->
-  <a href="#home">Home</a>
-  <a href="#products">Products</a>
-  <a href="#reviews">Reviews</a>
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
-</div>
-
-
-  <!-- Hero Section -->
-<section id="home" class="min-h-screen flex flex-col justify-center items-center text-center p-10">
-  <img loading="lazy" src="https://i.postimg.cc/mg9xFDRQ/Whats-App-Image-2025-05-29-at-9-21-00-PM-removebg-preview.png" alt="Abrar Logo" class="h-28 sm:h-32 mb-4" />
-  <h1 class="text-4xl sm:text-5xl font-extrabold mb-4 bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent">
-    ABRAR TRADERS
-  </h1>
-  <p class="text-lg mb-4"><span id="typed"></span></p>
-  <a href="#products" class="glass px-6 py-2 rounded-xl shadow hover:scale-105 transition text-blue-700 font-semibold">Explore Products</a>
-</section>
-
-<!-- Products Section -->
-<section id="products" class="py-16 px-6 bg-white">
-  <h2 class="text-3xl font-bold text-center mb-8">Our Products</h2>
-  <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-    <div class="glass p-6">
-      <img loading="lazy" src="https://i.postimg.cc/ZKBYVJ4q/Kraft-Paper-1.jpg" class="rounded mb-4 w-full" alt="Kraft Paper"/>
-      <h3 class="font-semibold text-xl mb-2">Kraft Paper</h3>
-      <p class="text-gray-500">High-quality paper for industrial purposes.</p>
-    </div>
-    <div class="glass p-6">
-      <img loading="lazy" src="https://i.postimg.cc/ZqcJCRFw/duplex-paper-sheet-500x500.jpg" class="rounded mb-4 w-full" alt="Duplex Paper"/>
-      <h3 class="font-semibold text-xl mb-2">Duplex Paper</h3>
-      <p class="text-gray-500">Paper for all print packaging.</p>
-    </div>
-    <div class="glass p-6">
-      <img loading="lazy" src="https://i.postimg.cc/HxMDbkQG/1.jpg" class="rounded mb-4 w-full" alt="Laminated Board"/>
-      <h3 class="font-semibold text-xl mb-2">Laminated Board</h3>
-      <p class="text-gray-500">Eco-friendly, strong packaging for businesses.</p>
-    </div>
-    <div class="glass p-6">
-      <img loading="lazy" src="https://i.postimg.cc/wBhQJK7f/grey-paper-board-500x500.jpg" class="rounded mb-4 w-full" alt="Grey Board"/>
-      <h3 class="font-semibold text-xl mb-2">Sundry Grey Board</h3>
-      <p class="text-gray-500">Strong, eco-friendly grey board for packaging.</p>
-    </div>
-  </div>
-</section>
-
-<!-- Reviews Section -->
-<section id="reviews" class="py-16 px-6 bg-[#f9fafb]">
-  <h2 class="text-3xl font-bold text-center mb-8">Customer Reviews</h2>
-  <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-    <div class="glass p-6">
-      <p class="text-gray-700 italic">"Excellent quality papers and on-time delivery. Highly recommend!"</p>
-      <div class="mt-4 font-semibold">— Moosa Maniar</div>
-    </div>
-    <div class="glass p-6">
-      <p class="text-gray-700 italic">"Great customer service and eco-friendly packaging options."</p>
-      <div class="mt-4 font-semibold">— Faisal Kagzi</div>
-    </div>
-    <div class="glass p-6">
-      <p class="text-gray-700 italic">"Top-notch supplier for bulk stationery. Always reliable."</p>
-      <div class="mt-4 font-semibold">— Usama Sipwala</div>
-    </div>
-  </div>
-</section>
-
-<!-- About Section -->
-<section id="about" class="py-16 px-6 bg-[#f0f2fa]">
-  <h2 class="text-3xl font-bold text-center mb-8">About Us</h2>
-  <div class="max-w-4xl mx-auto">
-    <div class="glass p-8 rounded-xl text-center text-gray-700 shadow-lg">
-      <p class="text-lg">
-        For over a decade, <strong>Abrar Traders</strong> has been a trusted name in the paper industry.
-        We specialize in providing top-grade paper products, stationery, and packaging materials to businesses across India.
-        Our mission is rooted in <span class="font-semibold">quality</span>, <span class="font-semibold">sustainability</span>, and <span class="font-semibold">customer satisfaction</span>.
-        <br /><br />
-        Whether you're looking for premium office paper, eco-friendly packaging, or bulk stationery supplies,
-        Abrar Traders delivers with <span class="font-semibold">speed, reliability, and care</span>.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="py-16 px-6 bg-white">
-  <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
-  <div class="max-w-xl mx-auto">
-    <form id="contactForm" class="space-y-4" name="submit-to-google-sheet">
-      <input type="text" name="name" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded-lg" required />
-      <input type="email" name="email" placeholder="Your Email" class="w-full p-3 border border-gray-300 rounded-lg" required />
-      <textarea name="message" placeholder="Your Message" rows="4" class="w-full p-3 border border-gray-300 rounded-lg" required></textarea>
-      <button type="submit" class="glass px-6 py-2 rounded-xl shadow hover:scale-105 transition text-blue-700 font-semibold w-full">Send Message</button>
-      <p id="formStatus" class="text-center mt-2"></p>
-    </form>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer class="text-center py-6 text-sm text-gray-500 bg-[#e6e9f4]">
-  <div class="flex justify-center space-x-6 mb-2">
-    <a href="#home">Home</a>
-    <a href="#products">Products</a>
-    <a href="#reviews">Reviews</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </div>
-  <div>© 2025 ABRAR TRADERS. All rights reserved.</div>
-</footer>
-
-  <!-- JavaScript -->
-  <script>
-    // Spinner
-    window.addEventListener('load', () => {
-      document.getElementById('spinner').style.display = 'none';
-    });
-
-    // Scroll Progress Bar & Sidebar Minimize
-    window.onscroll = function () {
-      const scrollTop = document.documentElement.scrollTop;
-      const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      const scrolled = (scrollTop / scrollHeight) * 100;
-      document.getElementById('progressBar').style.width = scrolled + '%';
-
-      const sidebar = document.getElementById('socialSidebar');
-      const heroHeight = document.getElementById('home')?.offsetHeight || 500;
-      if (window.scrollY > heroHeight) sidebar.classList.add('minimized');
-      else sidebar.classList.remove('minimized');
-    };
-
-    // Typed Text
-    new Typed('#typed', {
-      strings: ["Premium Paper & Packaging", "Eco-Friendly Solutions", "Fast Delivery Across India"],
-      typeSpeed: 50,
-      backSpeed: 30,
-      backDelay: 1500,
-      loop: true
-    });
-
-    // Particles
-    tsParticles.load("tsparticles", {
-      particles: {
-        number: { value: 50 },
-        size: { value: 3 },
-        move: { enable: true, speed: 1 },
-        links: { enable: true, distance: 150, color: "#607afb", opacity: 0.5 },
-        opacity: { value: 0.5 }
-      }
-    });
-
-    // Mobile Menu
-const menuButton = document.getElementById('menuButton');
-const mobileMenu = document.getElementById('mobileMenu');
-const menuBackdrop = document.getElementById('menuBackdrop');
-const closeMenuButton = document.getElementById('closeMenuButton');
-
-function toggleMenu() {
-  const isOpen = mobileMenu.classList.toggle('open');
-  menuButton.classList.toggle('menu-open');
-  menuBackdrop.classList.toggle('open');
-  document.body.classList.toggle('menu-opened', isOpen);
-  menuButton.setAttribute('aria-expanded', isOpen);
-
-  if (isOpen) {
-    const firstLink = mobileMenu.querySelector('a');
-    firstLink && firstLink.focus();
-  }
-}
-
-menuButton.addEventListener('click', toggleMenu);
-menuBackdrop.addEventListener('click', toggleMenu);
-closeMenuButton.addEventListener('click', toggleMenu);
-document.querySelectorAll('#mobileMenu a').forEach(link => {
-  link.addEventListener('click', toggleMenu);
-});
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape' && mobileMenu.classList.contains('open')) {
-    toggleMenu();
-  }
-});
-
-
-    // Google Sheets Contact Form
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxG5pq3Ayl7SzkVgLUWIR56PhlXbs3ZmcvkJVTw3tggdIik3C3j6lACFfQ7sZrFk7E/exec';
-    const form = document.forms['submit-to-google-sheet'];
-    const status = document.getElementById('formStatus');
-
-    form.addEventListener('submit', e => {
-      e.preventDefault();
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-          status.innerHTML = "Message sent successfully!";
-          form.reset();
-          setTimeout(() => { status.innerHTML = ""; }, 5000);
-        })
-        .catch(error => {
-          status.innerHTML = "Message failed to send.";
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+            mirror: false,
+            offset: 120,
         });
-    });
-  </script>
+
+        // Spinner
+        window.addEventListener('load', () => {
+            document.getElementById('spinner').style.opacity = '0';
+            document.getElementById('spinner').style.visibility = 'hidden';
+            setTimeout(() => {
+                document.getElementById('spinner').style.display = 'none';
+            }, 500);
+        });
+
+        // Scroll Progress Bar & Sidebar Minimize & Navbar Active State
+        const navLinks = document.querySelectorAll('.nav-link');
+        const sections = document.querySelectorAll('section[id]');
+        const stickyNav = document.querySelector('.sticky-nav');
+        const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+        function updateScrollElements() {
+            const scrollTop = document.documentElement.scrollTop;
+            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (scrollTop / scrollHeight) * 100;
+            document.getElementById('progressBar').style.width = scrolled + '%';
+
+            const sidebar = document.getElementById('socialSidebar');
+            const heroHeight = document.getElementById('home')?.offsetHeight || 500;
+            if (window.scrollY > heroHeight / 2) sidebar.classList.add('minimized');
+            else sidebar.classList.remove('minimized');
+
+            let currentSectionId = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - stickyNav.offsetHeight - 50;
+                const sectionBottom = sectionTop + section.offsetHeight;
+                if (scrollTop >= sectionTop && scrollTop < sectionBottom) {
+                    currentSectionId = section.id;
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.dataset.section === currentSectionId) {
+                    link.classList.add('active');
+                }
+            });
+
+            if (scrollTop > 50) {
+                stickyNav.classList.add('scrolled');
+            } else {
+                stickyNav.classList.remove('scrolled');
+            }
+
+            if (scrollTop > window.innerHeight / 2) {
+                scrollToTopBtn.classList.remove('scale-0', 'opacity-0');
+                scrollToTopBtn.classList.add('scale-100', 'opacity-100');
+            } else {
+                scrollToTopBtn.classList.remove('scale-100', 'opacity-100');
+                scrollToTopBtn.classList.add('scale-0', 'opacity-0');
+            }
+        }
+
+        window.addEventListener('scroll', updateScrollElements);
+        window.addEventListener('resize', updateScrollElements);
+        updateScrollElements();
+
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+
+        // Typed Text
+        new Typed('#typed', {
+            strings: [
+                "<span class='text-blue-700'>Premium Paper & Packaging</span>",
+                "<span class='text-indigo-700'>Eco-Friendly Solutions</span>",
+                "<span class='text-purple-700'>Fast Delivery Across India</span>",
+                "Your Partner in Paper Excellence"
+            ],
+            typeSpeed: 50,
+            backSpeed: 30,
+            backDelay: 1800,
+            loop: true,
+            showCursor: true,
+            cursorChar: '|',
+            autoInsertCss: true,
+            loopCount: Infinity
+        });
+
+        // Particles
+        tsParticles.load("tsparticles", {
+            particles: {
+                number: { value: 60, density: { enable: true, area: 800 } },
+                color: { value: ["#607afb", "#8e9bfa", "#a78bfa"] },
+                shape: { type: "circle" },
+                opacity: {
+                    value: { min: 0.3, max: 0.7 },
+                    animation: { enable: true, speed: 0.5, sync: false, startValue: "random", destroy: "none" }
+                },
+                size: {
+                    value: { min: 1, max: 4 },
+                    animation: { enable: true, speed: 4, sync: false, startValue: "random", destroy: "none" }
+                },
+                links: {
+                    enable: true,
+                    distance: 120,
+                    color: "#a7b6fc",
+                    opacity: 0.4,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 0.8,
+                    direction: "none",
+                    random: true,
+                    straight: false,
+                    outModes: { default: "bounce" },
+                    attract: { enable: false, rotateX: 600, rotateY: 1200 }
+                }
+            },
+            interactivity: {
+                events: {
+                    onHover: { enable: true, mode: "repulse" },
+                    onClick: { enable: true, mode: "push" },
+                    resize: true
+                },
+                modes: {
+                    repulse: { distance: 100, duration: 0.4 },
+                    push: { quantity: 4 }
+                }
+            },
+            detectRetina: true,
+            fpsLimit: 60
+        });
+
+        // Mobile Menu
+        const menuButton = document.getElementById('menuButton');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuBackdrop = document.getElementById('menuBackdrop');
+        const closeMenuButton = document.getElementById('closeMenuButton');
+
+        function toggleMenu() {
+            const isOpen = mobileMenu.classList.toggle('open');
+            menuButton.classList.toggle('menu-open');
+            menuBackdrop.classList.toggle('open');
+            document.body.classList.toggle('menu-opened', isOpen);
+            menuButton.setAttribute('aria-expanded', isOpen);
+
+            if (isOpen) {
+                const firstLink = mobileMenu.querySelector('a');
+                firstLink && firstLink.focus();
+            } else {
+                menuButton.focus();
+            }
+        }
+
+        menuButton.addEventListener('click', toggleMenu);
+        menuBackdrop.addEventListener('click', toggleMenu);
+        closeMenuButton.addEventListener('click', toggleMenu);
+        document.querySelectorAll('#mobileMenu a').forEach(link => {
+            link.addEventListener('click', toggleMenu);
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && mobileMenu.classList.contains('open')) {
+                toggleMenu();
+            }
+            if (mobileMenu.classList.contains('open') && e.key === 'Tab') {
+                const focusableElements = mobileMenu.querySelectorAll('a, button');
+                const firstFocusable = focusableElements[0];
+                const lastFocusable = focusableElements[focusableElements.length - 1];
+
+                if (e.shiftKey) {
+                    if (document.activeElement === firstFocusable) {
+                        lastFocusable.focus();
+                        e.preventDefault();
+                    }
+                } else {
+                    if (document.activeElement === lastFocusable) {
+                        firstFocusable.focus();
+                        e.preventDefault();
+                    }
+                }
+            }
+        });
+
+        // Product Filtering
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const productItems = document.querySelectorAll('.product-item');
+        const productGrid = document.getElementById('productGrid');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const filter = button.dataset.filter;
+
+                // Update active button style
+                filterButtons.forEach(btn => {
+                    btn.classList.remove('bg-blue-600', 'text-white', 'hover:bg-blue-700');
+                    btn.classList.add('bg-gray-200', 'text-gray-700', 'hover:bg-blue-100', 'hover:text-blue-700');
+                });
+                button.classList.add('bg-blue-600', 'text-white', 'hover:bg-blue-700');
+                button.classList.remove('bg-gray-200', 'text-gray-700', 'hover:bg-blue-100', 'hover:text-blue-700');
+
+                // Apply filter
+                productGrid.style.opacity = '0'; // Fade out
+                setTimeout(() => {
+                    productItems.forEach(item => {
+                        const categories = item.dataset.category.split(' ');
+                        if (filter === 'all' || categories.includes(filter)) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                    productGrid.style.opacity = '1'; // Fade in
+                }, 300); // Wait for fade out
+            });
+        });
+
+
+        // Product Quick View Modal
+        const productModal = document.getElementById('productModal');
+        const productModalBackdrop = document.getElementById('productModalBackdrop');
+        const closeProductModalButton = productModal.querySelector('.close-button');
+
+        document.querySelectorAll('.product-card').forEach(card => {
+            card.addEventListener('click', (e) => {
+                // Prevent opening modal if clicking on a link/button inside card if any
+                if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON') return;
+
+                const name = card.dataset.name;
+                const image = card.dataset.image;
+                const description = card.dataset.description;
+                const specifications = card.dataset.specifications;
+                const additionalInfo = card.dataset.additionalInfo;
+
+                document.getElementById('modalProductName').textContent = name;
+                document.getElementById('modalProductImage').src = image;
+                document.getElementById('modalProductImage').alt = name;
+                document.getElementById('modalProductDescription').textContent = description;
+                document.getElementById('modalProductAdditionalInfo').textContent = additionalInfo;
+
+                const specList = document.getElementById('modalProductSpecifications');
+                specList.innerHTML = specifications; // Directly inject HTML string from data-attribute
+
+                productModal.classList.add('open');
+                productModalBackdrop.classList.add('open');
+                document.body.classList.add('menu-opened'); // Re-use menu-opened for body lock
+                productModal.setAttribute('aria-hidden', 'false');
+                productModalBackdrop.setAttribute('aria-hidden', 'false');
+
+                // Focus the close button for accessibility
+                closeProductModalButton.focus();
+            });
+        });
+
+        function closeProductModal() {
+            productModal.classList.remove('open');
+            productModalBackdrop.classList.remove('open');
+            document.body.classList.remove('menu-opened');
+            productModal.setAttribute('aria-hidden', 'true');
+            productModalBackdrop.setAttribute('aria-hidden', 'true');
+        }
+
+        closeProductModalButton.addEventListener('click', closeProductModal);
+        productModalBackdrop.addEventListener('click', closeProductModal);
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && productModal.classList.contains('open')) {
+                closeProductModal();
+            }
+             // Optional: Trap focus within the modal if needed for full accessibility
+        });
+
+
+        // Splide.js Testimonial Carousel
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('.splide', {
+                type: 'loop',
+                perPage: 3,
+                focus: 'center',
+                autoplay: true,
+                interval: 3000,
+                speed: 800,
+                pauseOnHover: true,
+                arrows: true,
+                pagination: false, // You can set to true if you want dots
+                gap: '2rem', // Spacing between slides
+                breakpoints: {
+                    1024: { // For large screens
+                        perPage: 2,
+                        gap: '1.5rem',
+                    },
+                    768: { // For medium screens
+                        perPage: 1,
+                        gap: '1rem',
+                    },
+                },
+            }).mount();
+        });
+
+
+        // Google Sheets Contact Form
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxG5pq3Ayl7SzkVgLUWIR56PhlXbs3ZmcvkJVTw3tggdIik3C3j6lACFfQ7sZrFk7E/exec'; // REPLACE WITH YOUR NEW GOOGLE SHEET SCRIPT URL IF YOU CHANGE THE SHEET STRUCTURE
+        const contactForm = document.forms['submit-to-google-sheet-contact'];
+        const quoteForm = document.forms['submit-to-google-sheet-quote'];
+
+        const submitForm = async (formElement, statusElement) => {
+            event.preventDefault(); // Prevent default form submission
+
+            const submitButton = formElement.querySelector('button[type="submit"]');
+
+            // Basic client-side validation
+            const nameInput = formElement.querySelector('input[name="name"]');
+            const emailInput = formElement.querySelector('input[name="email"]');
+            const messageOrQuantityInput = formElement.querySelector('textarea[name="message"]') || formElement.querySelector('textarea[name="quantity_specifics"]');
+
+            if (!nameInput.value.trim() || !emailInput.value.trim() || !messageOrQuantityInput.value.trim()) {
+                statusElement.innerHTML = "<span class='text-red-600'>Please fill in all required fields.</span>";
+                return;
+            }
+            if (!emailInput.value.includes('@') || !emailInput.value.includes('.')) {
+                statusElement.innerHTML = "<span class='text-red-600'>Please enter a valid email address.</span>";
+                return;
+            }
+
+            submitButton.disabled = true;
+            submitButton.textContent = 'Sending...';
+            statusElement.innerHTML = "";
+
+            try {
+                const response = await fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(formElement)
+                });
+
+                if (response.ok) {
+                    statusElement.innerHTML = "<span class='text-green-600 font-bold'>Message sent successfully! Thank you.</span>";
+                    formElement.reset();
+                } else {
+                    const errorText = await response.text();
+                    console.error('Form submission failed:', response.status, errorText);
+                    statusElement.innerHTML = "<span class='text-red-600 font-bold'>Failed to send message. Please try again later.</span>";
+                }
+            } catch (error) {
+                console.error('Error during form submission:', error.message);
+                statusElement.innerHTML = "<span class='text-red-600 font-bold'>Network error. Please check your connection.</span>";
+            } finally {
+                submitButton.disabled = false;
+                submitButton.textContent = formElement.dataset.originalButtonText || 'Send Message'; // Restore original text
+                setTimeout(() => { statusElement.innerHTML = ""; }, 7000);
+            }
+        };
+
+        // Event listeners for both forms
+        contactForm.addEventListener('submit', (e) => submitForm(contactForm, document.getElementById('formStatusContact')));
+        quoteForm.addEventListener('submit', (e) => submitForm(quoteForm, document.getElementById('formStatusQuote')));
+
+        // Store original button text for restore
+        contactForm.querySelector('button[type="submit"]').dataset.originalButtonText = contactForm.querySelector('button[type="submit"]').textContent;
+        quoteForm.querySelector('button[type="submit"]').dataset.originalButtonText = quoteForm.querySelector('button[type="submit"]').textContent;
+
+
+        // Set current year in footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
